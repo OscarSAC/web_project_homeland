@@ -1,0 +1,125 @@
+.page {
+  width: 100%;
+  background-color: #2a2c2f;
+  font-family: "inter", arial, sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  margin-top: 34px;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead__title {
+  font-family: "inter", sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  max-width: 720px;
+  margin-top: 91px;
+  display: flex;
+  text-align: center;
+}
+.lead__subtitle {
+  font-family: "inter", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  max-width: 720px;
+  margin: 32px 0 64px;
+  display: flex;
+  text-align: center;
+}
+.lead__image {
+  width: 984px;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  width: 100%;
+  max-width: 830px;
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  /* position: relative; */
+  /* right: 75px; */
+}
+.intro__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+.intro__quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.intro__quote_author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  text-align: end;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+}
+.footer {
+  margin: 92px auto 24px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
