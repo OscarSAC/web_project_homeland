@@ -1,7 +1,7 @@
 .intro {
   width: 100%;
   max-width: 984px;
-  padding-right: 154px;
+  /* padding-right: 154px; */
   margin: 92px auto;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,7 @@
   font-size: 54px;
   font-weight: 900;
   line-height: 1.07;
+  padding-right: 154px;
 }
 .intro__quote {
   display: flex;
@@ -32,6 +33,7 @@
   font-weight: 400;
   line-height: 1.4;
   margin-top: 41px;
+  padding-right: 154px;
 }
 .intro__quote_author {
   display: flex;
@@ -59,12 +61,13 @@
   font-weight: 400;
   line-height: 1.62;
   margin-top: 31px;
+  padding-right: 154px;
 }
 
 @media screen and (max-width: 544px) {
   .intro {
     width: 100%;
-    padding-right: 0;
+    /* padding-right: 0; */
     max-width: 288px;
     margin-top: 64px;
     display: flex;
@@ -83,6 +86,7 @@
     font-size: 32px;
     font-weight: 900;
     line-height: 1.09;
+    padding-right: 0;
   }
   .intro__quote {
     display: flex;
@@ -96,6 +100,7 @@
     font-weight: 400;
     line-height: 1.25;
     margin-top: 40px;
+    padding-right: 0;
   }
   .intro__quote_author {
     display: flex;
@@ -123,6 +128,7 @@
     font-weight: 400;
     line-height: 1.62;
     margin-top: 32px;
+    padding-right: 0px;
   }
 }
 
@@ -147,6 +153,7 @@
     font-size: 45px;
     font-weight: 900;
     line-height: 1.09;
+    padding-right: 0;
   }
   .intro__quote {
     display: flex;
@@ -160,6 +167,7 @@
     font-weight: 400;
     line-height: 1.4;
     margin-top: 51px;
+    padding-right: 0;
   }
   .intro__quote_author {
     display: flex;
@@ -187,5 +195,6 @@
     font-weight: 400;
     line-height: 1.62;
     margin-top: 42px;
+    padding-right: 0;
   }
 }

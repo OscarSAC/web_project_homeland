@@ -12,9 +12,12 @@
 }
 @media screen and (max-width: 544px) {
   .footer {
-    margin: 90px auto 24px;
+    margin: 65px auto 25px;
     display: flex;
     justify-content: center;
+  }
+  .footer__text {
+    margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -24,9 +27,12 @@
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .footer {
-    margin: 64px auto 24px;
+    margin: 90px auto 24px;
     display: flex;
     justify-content: center;
+  }
+  .footer__text {
+    margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 400;
