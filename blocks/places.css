@@ -56,7 +56,7 @@
   display: flex;
   width: 289px;
   height: 48px;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
   color: white;
   grid-area: button;
   grid-row-end: none;
@@ -73,7 +73,8 @@
 }
 .places__buy-button:hover {
   cursor: pointer;
-  background-image: linear-gradient(to right, #003a7b 100%, #003a7b 100%);
+  background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+  box-shadow: 5px 5px 10px #000000;
 }
 .places__artists {
   width: 100%;
@@ -189,7 +190,7 @@
     display: flex;
     width: 288px;
     height: 48px;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
     color: white;
     grid-area: button;
     grid-row-end: none;
@@ -203,11 +204,13 @@
     box-sizing: border-box;
     border: 0;
     border-radius: 4px;
-    box-shadow: 5px 5px 10px #000000;
+    box-shadow: none;
     text-decoration: none;
   }
-  .places__buy-button:active {
-    background-image: linear-gradient(to right, #003a7b 100%, #003a7b 100%);
+  .places__buy-button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+    box-shadow: 5px 5px 10px #000000;
   }
   .places__artists {
     width: 100%;
@@ -328,7 +331,7 @@
     display: flex;
     width: 289px;
     height: 48px;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
     color: white;
     grid-area: button;
     grid-row-end: none;
@@ -345,12 +348,10 @@
   }
   .places__buy-button:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, #003a7b 100%, #003a7b 100%);
+    background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+    box-shadow: 5px 5px 10px #000000;
   }
-  .places__buy-button:active {
-    cursor: pointer;
-    background-image: linear-gradient(to right, #003a7b 100%, #003a7b 100%);
-  }
+
   .places__artists {
     width: 100%;
     max-width: 352px;

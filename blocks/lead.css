@@ -32,6 +32,7 @@
   height: auto;
   width: 100%;
   object-fit: cover;
+  box-shadow: 10px 10px 25px #000000;
 }
 
 @media screen and (max-width: 544px) {
@@ -103,5 +104,6 @@
     height: auto;
     max-width: 100%;
     object-fit: cover;
+    box-shadow: 10px 10px 25px #000000;
   }
 }
