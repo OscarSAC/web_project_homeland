@@ -56,7 +56,8 @@
   display: flex;
   width: 289px;
   height: 48px;
-  background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+
   color: white;
   grid-area: button;
   grid-row-end: none;
@@ -73,7 +74,11 @@
 }
 .places__buy-button:hover {
   cursor: pointer;
-  background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   box-shadow: 5px 5px 10px #000000;
 }
 .places__artists {
@@ -190,7 +195,8 @@
     display: flex;
     width: 288px;
     height: 48px;
-    background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+
     color: white;
     grid-area: button;
     grid-row-end: none;
@@ -209,7 +215,11 @@
   }
   .places__buy-button:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 120, 254, 0.25) 0%,
+      rgba(0, 58, 123, 0.25) 99.98%
+    );
     box-shadow: 5px 5px 10px #000000;
   }
   .places__artists {
@@ -331,7 +341,8 @@
     display: flex;
     width: 289px;
     height: 48px;
-    background-image: linear-gradient(to right, #0278fe 100%, #003a7b 100%);
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+
     color: white;
     grid-area: button;
     grid-row-end: none;
@@ -348,7 +359,11 @@
   }
   .places__buy-button:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, #0278fe 25%, #003a7b 25%);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 120, 254, 0.25) 0%,
+      rgba(0, 58, 123, 0.25) 99.98%
+    );
     box-shadow: 5px 5px 10px #000000;
   }
 
